@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header {
+    text-align: center;
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav {
+    text-align: center;
+    margin: 16px 0;
+}
+
+nav a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+section {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #34495e;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-top: 20px;
+}
