@@ -21,7 +21,67 @@
         </section>
         <section id="form">
             <h2>鞋子品牌登记表</h2>
-            <!-- 第二步在这里加表单 -->
+            <h2>鞋子品牌登记表</h2>
+<form action="#" method="get">
+
+    <p>
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" placeholder="你的姓名" required>
+    </p >
+
+    <p>
+        <label for="email">邮箱</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+    </p >
+
+    <p>你拥有以下哪些品牌的鞋子？（可多选）</p >
+    <p>
+        <label><input type="checkbox" name="brand" value="nike"> 耐克（Nike）</label>
+        <label><input type="checkbox" name="brand" value="adidas"> 阿迪达斯（Adidas）</label>
+        <label><input type="checkbox" name="brand" value="lining"> 李宁（Li-Ning）</label>
+    </p >
+
+    <p>
+        <label for="count">你一共有几双运动鞋？</label>
+        <input type="number" id="count" name="count" min="1" max="50" required>
+    </p >
+
+    <p>
+        <label for="channel">主要购买渠道</label>
+        <select id="channel" name="channel" required>
+            <option value="">请选择</option>
+            <option value="online">线上（官网/电商）</option>
+            <option value="offline">线下实体店</option>
+            <option value="daigou">代购</option>
+        </select>
+    </p >
+
+    <p>
+        <label for="year">最近一次购买年份</label>
+        <input type="number" id="year" name="year" min="2020" max="2026" required>
+    </p >
+
+    <p>你最喜欢的品牌是？</p >
+    <p>
+        <label><input type="radio" name="favorite" value="nike" checked> 耐克</label>
+        <label><input type="radio" name="favorite" value="adidas"> 阿迪达斯</label>
+        <label><input type="radio" name="favorite" value="lining"> 李宁</label>
+    </p >
+
+    <p>
+        <label for="receipt">上传购买凭证（可选）</label>
+        <input type="file" id="receipt" name="receipt">
+    </p >
+
+    <p>
+        <label for="note">备注</label><br>
+        <textarea id="note" name="note" rows="4" maxlength="200" placeholder="其他想补充的信息"></textarea>
+    </p >
+
+    <p>
+        <button type="submit">提交登记</button>
+    </p >
+</form>
         </section>
     </main>
     <footer>
